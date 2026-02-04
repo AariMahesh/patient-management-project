@@ -1,0 +1,9 @@
+[
+  {
+    "address": "123 main street",
+    "dateOfBirth": "1995-09-09",
+    "email": "john.doe@example.com",
+    "id": 1,
+    "name": "John Doe UPDATED"
+  }
+]
