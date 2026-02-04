@@ -1,0 +1,11 @@
+###
+PUT http://localhost:8080/api/vi/patientService/update/1
+Content-Type: application/json
+
+{
+  "name": "John Doe UPDATED",
+  "email": "john.doe@example.com",
+  "address": "123 main street",
+  "dateOfBirth": "1995-09-09"
+}
+###
