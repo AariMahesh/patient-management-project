@@ -8,9 +8,10 @@ RUN mvn dependency:go-offline -B
 
 COPY src ./src
 
-RUN mvn clean package
+RUN mvn -B -DskipTests clean package --no-transfer-progress
 
-FROM openjdk:17.0.2-jdk AS runner
+FROM eclipse-temurin:17-jdk AS runner
+#FROM openjdk:17.0.2-jdk AS runner
 
 WORKDIR /app
 
